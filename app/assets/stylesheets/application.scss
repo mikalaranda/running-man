@@ -10,6 +10,12 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
  */
+
+
+/* figure out why removing the require_tree and require_self lines made the imports below work */
+@import "colors";
+@import "landing-page";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
