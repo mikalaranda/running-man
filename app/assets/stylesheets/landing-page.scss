@@ -1,3 +1,49 @@
-.banner-image {
-    background-color: $header-light-grey;
+
+body { 
+    
+    .custom {
+        border-width: 0;
+    }
+    
+    header {
+        
+        a#logo {
+            float: left;
+        }
+        
+        nav {
+            margin-right: 50px;
+        }
+    }
+    
+    .main-content {
+        padding-top: 100px; 
+    
+        .banner-image {
+            background-color: $header-light-grey;
+            width: 1025px;
+            margin: 0 auto;
+            height: 250px;
+            
+            .main-text {
+                font-size: 76px;
+                display: block;
+                position: relative;
+                top: 15px;
+                left: 6%;
+            }
+            
+            .subtitle {
+                display: block;
+                position: relative;
+                text-align: center;
+                font-size: 30px;
+                width: 300px;
+                top: 55px;
+                left: 65%;
+                background-color: #ffea00;
+            }
+            
+        }
+    }
 }
